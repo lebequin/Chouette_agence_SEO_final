@@ -17,7 +17,6 @@ p {
 }
 
 .tc-white {
-    color: #F3976C !important;
     color: #fff !important;
 }
 
@@ -801,10 +800,6 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
-}
-
-.tc-white {
-    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
