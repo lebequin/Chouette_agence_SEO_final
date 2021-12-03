@@ -20,6 +20,10 @@ p {
     color: #fff !important;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
 /*
 
 Fin modifications
