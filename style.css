@@ -21,10 +21,14 @@ p {
 }
 
 .flex-center {
+    clear: both;
     display: flex;
     justify-content: center;
 }
 .citation {
+    text-align: center;
+    }
+p.citation em {
     font-size: 20px;
 }
 /*
