@@ -24,6 +24,9 @@ p {
     display: flex;
     justify-content: center;
 }
+.citation {
+    font-size: 20px;
+}
 /*
 
 Fin modifications
