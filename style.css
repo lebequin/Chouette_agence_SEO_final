@@ -33,7 +33,7 @@ p.citation em {
 }
 
 .navbar-nav > li > a:focus-visible {
-    color: #df3602;
+    color: #df3602!important;
     text-decoration: underline;
   }
   .btn-atomic-tangerine {
@@ -41,6 +41,17 @@ p.citation em {
     min-height: 44pt;
     line-height: 35px;
 }
+
+.btn-atomic-tangerine:focus {
+  background-color: #fff;
+  border: 2px solid #df3602;
+  color: #df3602 !important;
+}
+
+.d-bloc .panel button:hover, .l-bloc button:hover {
+  color: rgba(0, 0, 0, .7) !important;
+}
+
 /*
 
 Fin modifications
