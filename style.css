@@ -32,7 +32,7 @@ p.citation em {
     font-size: 20px;
 }
 
-.navbar-nav > li > a:focus-visible {
+.navbar-nav > li > a:focus {
     color: #df3602!important;
     text-decoration: underline;
   }
@@ -51,7 +51,12 @@ p.citation em {
 .d-bloc .panel button:hover, .l-bloc button:hover {
   color: rgba(0, 0, 0, .7) !important;
 }
-
+.social {
+    display: block;
+}
+.social:focus {
+    transform: scale(1.15);
+}
 /*
 
 Fin modifications
